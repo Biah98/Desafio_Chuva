@@ -1,0 +1,411 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+        integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <link rel="stylesheet" href="assets/style.css">
+
+    <title>Desafio Chuva</title>
+</head>
+
+<body>
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-sm-2 col-xs-12" id="logo">
+
+                <h2 id="logo">SLACA 2019</h2>
+
+            </div>
+            <div class="col-sm-10 col-xs-12 d-sm-inline-flex justify-content-around align-items-center" id="cabecalho">
+
+                <ul>
+                    <li>
+                        <p id="descri-cabecalho">Anais do Simpósio Latino Americano de Ciências de Alimentos</p>
+                    </li>
+                    <li>
+                        <h3 id="titulo-cabecalho">Anais do 13º Simpósio Latino Americano de Ciência de Alimentos</h3>
+                    </li>
+                    <li>
+                        <p id="descri-cabecalho">ISSN: 1234-5678</p>
+                    </li>
+                </ul>
+                <nav class="navbar navbar-expand-xl navbar-light">
+
+                    <button class="navbar-toggler" type="button" data-toggle="collapse"
+                        data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false"
+                        aria-label="Alterna navegação">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+
+                    <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+                        <ul class="navbar-nav">
+                            <li class="nav-item dropdown botao-idiomas">
+                                <img src="img/globe-solid.svg" class="img-globo" alt="globo">
+                                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                                    data-bs-toggle="dropdown" aria-expanded="false">
+                                    PT, BR
+                                </a>
+                            </li>
+
+                            <li class="nav-item login">
+                                <p class="text-login">Bem vindo(a)!<br>alguem12@galoascience.com</p>
+                            </li>
+                            <li class="nav-item imagem">
+                                <img src="img/user.png" alt="Imagem do user" width="35px" height="35px"
+                                    class="img-fluid rounded-circle" id="img-user">
+                            </li>
+                        </ul>
+                    </div>
+                </nav>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-sm-2 d-none d-sm-block " id="menu">
+
+                <img src="img/logo.png" class="img-fluid" id="img-logo" alt="logo">
+
+                <div class="nav flex-sm-column" id="v-pills-tab" role="tablist" aria-orientation="vertical">
+
+                    <a class="nav-link" id="v-pills-profile-tab" data-toggle="pill" href="#v-pills-profile" role="tab"
+                        aria-controls="v-pills-profile" aria-selected="false">Perfil</a>
+                    <hr class="dropdown-divider">
+                    <a class="nav-link" id="v-pills-messages-tab" data-toggle="pill" href="#v-pills-messages" role="tab"
+                        aria-controls="v-pills-messages" aria-selected="false">Mensagens</a>
+                    <hr class="dropdown-divider">
+                    <a class="nav-link" id="v-pills-settings-tab" data-toggle="pill" href="#v-pills-settings" role="tab"
+                        aria-controls="v-pills-settings" aria-selected="false">Configurações</a>
+                    <hr class="dropdown-divider">
+                    <a class="nav-link" id="v-pills-settings-tab" data-toggle="pill" href="#v-pills-settings" role="tab"
+                        aria-controls="v-pills-settings" aria-selected="false">Configurações</a>
+                    <hr class="dropdown-divider">
+                    <a class="nav-link active" id="v-pills-trabalhos-tab" data-toggle="pill" href="#v-pills-trabalhos"
+                        role="tab" aria-controls="v-pills-trabalhos" aria-selected="true">Trabalhos</a>
+                    <hr class="dropdown-divider">
+                    <a class="nav-link" id="v-pills-settings-tab" data-toggle="pill" href="#v-pills-settings" role="tab"
+                        aria-controls="v-pills-settings" aria-selected="false">Configurações</a>
+
+                </div>
+            </div>
+            <div class="col-sm-7 col-xs-12 justify-content-center" id="conteudo-pag">
+                <div class="tab-content" id="v-pills-tabContent">
+                    <div class="tab-pane fade show active" id="v-pills-trabalhos" role="tabpanel"
+                        aria-labelledby="v-pills-trabalhos-tab">
+                        <div class="conteudo-titulo">
+                            <h3 id="titulo">Análise sensorial de preparações funcionais desenvolvidas para escolares
+                                entre 09 e 15 anos,
+                                do município de Campinas/SP
+                            </h3>
+                            <img src="img/vídeo.png" class="img-fluid">
+
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-sm-3 col-xs-12 justify-content-center" id="detlhes-painel">
+
+                <button id="download"><img src="img/download.png">Download</button>
+
+                <button id="favoritar"><img src="img/favorito.png"></button>
+
+                <button id="doi"><img src="img/doi.png"></button>
+
+                <p id="citacao">COMO CITAR ESSE TRABALHO?</p>
+
+
+                <div class="painel">
+                    <h3 id="detalhes">Detalhes</h3>
+                    <p id="text">
+                        Tipo de Apresentação: <b>Pôster</b>
+                        <br>
+                        Eixo temático: <b>Alimentação e saúde (AS)</b>
+                        <br>
+                        Palavras-chaves: <b>Alimentos funcionais, alimentação escolar.</b>
+                        <br>
+                        <br>
+                        <b>Autores:</b>
+                        <br>
+                        Galileo Galilei¹
+                        <br>
+                        Berta Lange de Morretes²
+                        <br>
+                        Isaac Newton³
+                        <br>
+                        Cesar Lattes¹
+                        <br>
+                        Stephen Hawking⁴
+                        <br>
+                    </p>
+                    <p id="text-nota">
+                        ¹Universidade Estadual de Campinas
+                        <br>
+                        ²Universidade de São Paulo
+                        <br>
+                        ³Instituto Nacional de Pesquisas Espaciais
+                        <br>
+                        ⁴Universidade Federal do Rio de Janeiro
+                    </p>
+
+
+                </div>
+
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-sm-2 d-none d-sm-block " id="menu">
+
+            </div>
+            <div class="col-sm-10">
+                <div class="conteudo">
+                    <div class="painel">
+                        <h3 id="detalhes">Resumo</h3>
+                        <p id="text">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus ducimus aspernatur
+                            exercitationem libero fugit accusantium tempora at necessitatibus fuga cumque, omnis sint?
+                            Accusamus provident fugiat, nostrum aliquid hic rem quaerat!
+                            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Molestias quidem rem asperiores
+                            sapiente et aperiam accusantium optio dolor nemo magnam. Soluta at id, aspernatur dolor
+                            doloremque velit nulla a placeat!
+
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. A eius repellat iusto quam dicta
+                            vitae
+                            consequuntur, consectetur nesciunt dolor voluptas voluptatum harum, dignissimos molestias
+                            aperiam accusantium natus, ea porro quas! Lorem ipsum dolor sit, amet consectetur
+                            adipisicing
+                            elit. <span id="pontos">...</span><span id="mais"> saepe voluptatem blanditiis reiciendis
+                                corrupti error perspiciatis aut ut at officiis hic tempore ducimus, consequatur commodi
+                                laboriosam repudiandae. Velit, iste esse?
+                                <br>
+                                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Natus unde amet, deserunt
+                                tempore at voluptatibus exercitationem cupiditate similique saepe animi. Vero sunt amet
+                                maxime fugiat vitae doloremque odit assumenda ad! Lorem ipsum dolor sit amet consectetur
+                                adipisicing elit. Nihil illum omnis reiciendis neque quos consequatur necessitatibus
+                                repellendus quis. Eius molestiae nisi non laborum possimus modi doloribus minima dolores
+                                vel culpa.
+                                <br>
+                                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ea molestias nisi quisquam
+                                repellendus nesciunt pariatur, qui illum esse odio unde animi repellat reiciendis
+                                doloremque
+                                tempore in ducimus ipsum. Architecto, illo.
+                                <br>
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur maiores consectetur
+                                exercitationem, harum eaque iure adipisci, explicabo, nam esse dolore nulla quas alias
+                                nisi
+                                possimus rerum reprehenderit natus nesciunt quos?
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus, perferendis explicabo
+                                eligendi, accusamus officia corrupti officiis ipsam delectus laborum soluta tempore qui
+                                consectetur illo quia cum deleniti amet iste voluptas?
+                                <br>
+                                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolorum laborum quisquam sit
+                                vitae beatae eligendi itaque, tenetur culpa ipsa, error, fugit facilis. Facilis dicta
+                                ratione quas esse quidem quam soluta.
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo quae at ut in laboriosam
+                                aliquid animi reiciendis tenetur optio dicta eveniet minima accusamus quod, officiis,
+                                nam assumenda sequi provident corrupti.
+                                <br>
+                                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Illum consectetur deserunt eum
+                                laboriosam! Distinctio voluptatum odit ad culpa blanditiis. Cupiditate suscipit
+                                veritatis
+                                quia, adipisci ratione eveniet voluptate id sint debitis!</span>
+                        </p>
+                        <a onclick="leiaMais()" id="leiaMais">Leia Mais</a>
+                    </div>
+
+                    <div class="painel">
+                        <h3 id="detalhes">Discussões</h3>
+                        <span id="itens">
+                            <h5>Compartilhe suas ideias ou dúvidas com os autores!</h5>
+
+                            <div id="icons">
+                                <img src="img/icone1.png" alt="" id="icons-uni">
+                                <img src="img/icone2.png" alt="" id="icons-uni">
+                                <img src="img/icone3.png" alt="" id="icons-uni">
+                            </div>
+
+                            <p>Sabia que o maior estímulo no desenvolvimento científico e cultural é a curiosidade?<br>
+                                Deixe
+                                seus questionamentos ou sugestões para o autor!</p>
+
+                            <hr />
+
+                            <button onclick="criarTopico()" id="criarTopico"><img src="img/icon - criar.png"> Criar
+                                Tópico</button>
+                        </span>
+                        <span id="form">
+                            <p>Tem uma dúvida ou sugestão? Compartilhe seu feedback com os autores!</p>
+
+                            <form>
+                                <h5 id="assuntoTitulo">Assunto</h5>
+                                <input type="assunto" id="assunto"
+                                    placeholder="Defina um tópico sucinto para notificar os autores..."
+                                    onkeyup="validarAssunto()">
+                                <div id="txtAssunto"></div>
+                                <br>
+                                <h5 id="conteudoTitulo">Conteúdo:</h5>
+
+                                <div class="campo-conteudo">
+                                    <input name="conteudo" id="conteudo" onkeyup="validarConteudo()"></input>
+                                    <div id="txtConteudo"></div>
+                                    <div class="campo-btn">
+                                        <div class="icons">
+                                            <img src="img/Shape.png" alt="">
+                                            <img src="img/italico.png" alt="">
+                                        </div>
+
+                                        <button onclick="enviar()" id="enviar">Enviar</button>
+                                    </div>
+                                </div>
+
+                            </form>
+
+                            <hr>
+                        </span>
+                        <span id="topicoEnviado">
+                            <h5 id="enviadoSucesso">Seu tópico foi enviado com sucesso! :D</h5>
+                            <p>Agradecemos por sua contribuição, uma notificação será enviada ao seu email assim que seu
+                                tópico for respondido!</p>
+                            <a>Descubra outros trabalhos!</a>
+
+                            <hr />
+
+                            <button onclick="criarTopico()" id="criarTopico"><img src="img/icon - criar.png">Criar
+                                Tópico</button>
+
+                            <img src="img/cardTopicoAguardadandoValidacao.png" alt="">
+                        </span>
+
+                        
+                        <div class="painelAssunto">
+                            <h5>Assunto da pergunta aparece aqui</h5>
+                            <p>Carlos Henrique Santos</p>
+                            <br>
+                            <p>Comecinho da pergunta aparece aqui resente relato inscreve-se no campo da análise da
+                                dimensão e impacto de processo formativo situado impacto de processo formativo
+                                processo...</p>
+
+                            <div id="resp-icons-assuntos">
+                                <img src="img/info.png" alt="" id="icons-uni">
+                                <img src="img/favoritar.png" alt="" id="icons-uni">
+
+                                <p id="res">1 like</p>
+                                <p id="res">1 resposta</p>
+                            </div>
+                        </div>
+
+
+                        <div class="painelAssunto" id="painelAssunto">
+
+                            <h5>Assunto da pergunta aparece aqui</h5>
+                            <p>Carlos Henrique Santos</p>
+                            <br>
+                            <p>Comecinho da pergunta aparece aqui resente relato inscreve-se no campo da análise da
+                                dimensão e impacto de processo formativo situado impacto de processo formativo
+                                processo resente relato
+                                inscreve-se no campo da análise da dimensão e impacto de processo formativo situado
+                                impacto de processo formativo processo? </p>
+
+                            <div id="resp-icons-assuntos">
+                                <img src="img/info.png" alt="" id="icons-uni">
+                                <img src="img/favoritar.png" alt="" id="icons-uni">
+
+                                <p id="res">4 likes</p>
+                                <a onclick="expandirResp()" id="expandiResp">
+                                    <p id="res">4 Respostas</p>
+                                </a>
+                            </div>
+                            <span id="respostas">
+                                <div class="painelRespPubl">
+                                    <div class="nome-confir-leitura">
+                                        <p id="nome">Adriano da Silva</p>
+                                        
+                                        <div class="confirmacao">
+                                            <p id="confirmLeitura">Autor</p>
+                                            <img src="img/visto.png" alt="">
+                                        </div>
+                                    </div>
+                                        
+                                    
+                                    <p>Resposta do autor é aqui. Relato inscreve-se no campo da análise da dimensão
+                                        e
+                                        impacto de processo formativo situado impacto de processo formativo processo
+                                        resente relato inscreve-se no campo da análise da dimensão e impacto de
+                                        processo
+                                        formativo situado impacto de processo formativo processo.</p>
+                                </div>
+                                <div class="painelRespAutor">
+                                    <p id="nome">Carlos Henrique Santos</p>
+                                    <p>Consegui entender melhor agora! Parece que a variação da análise da dimensão e impacto de processo formativo situado impacto de processo formativo.
+                                        <br>
+                                        <br>
+                                        Obrigada pela resposta, muito interessante o seu trabalho! </p>
+                                </div>
+                                <div class="painelRespPubl">
+                                    <div class="nome-confir-leitura">
+                                        <p id="nome">Carmila Ferreira Andrade</p>
+                                        
+                                        <div class="confirmacao">
+                                            <p id="confirmLeitura">Coautor</p>
+                                            <img src="img/visto.png" alt="">
+                                        </div>
+                                    </div>
+                                    
+                                    <p>Também ínteressante lembrar que o relato inscreve-se no campo da análise da dimensão e impacto de processo formativo situado impacto de processo formativo processo resente relato inscreve-se no campo da análise da dimensão e impacto de processo formativo situado impacto de processo formativo processo.
+                                        <br>
+                                        <br>
+                                        Situado impacto de processo formativo processo resente relato inscreve-se no campo da análise da dimensão e impacto de processo formativo situado impacto de processo formativo processo. </p>
+                                </div>
+                                <div class="painelRespPubl">
+                                    <div class="nome-confir-leitura">
+                                        <p id="nome">Ana Carolina</p>
+                                        
+                                        <div class="confirmacao">
+                                            <p id="confirmLeitura">Coautor</p>
+                                            <img src="img/visto.png" alt="">
+                                        </div>
+                                    </div>
+                                    
+                                    <p>Resposta do autor é aqui. Relato inscreve-se no campo da análise da dimensão e impacto de processo formativo situado impacto de processo formativo processo resente relato inscreve-se no campo da análise da dimensão e impacto de processo formativo situado impacto de processo formativo processo.
+                                    </p>
+                                </div>
+                            </span>
+
+
+
+                        </div>
+                    </div>
+
+                </div>
+
+
+
+                    <footer class="rodape">
+                        <img src="img/imagem - footer.png" class="img-fluid" alt="">
+
+                    </footer>
+                </div>
+            </div>
+        </div>
+
+        <!-- Bootstrap JavaScript-->
+
+        <script src="assets/script.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"
+            integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+            crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+            integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
+            crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.min.js"
+            integrity="sha384-VHvPCCyXqtD5DqJeNxl2dtTyhF78xXNXdkwX1CZeRusQfRKp+tA7hAShOK/B/fQ2"
+            crossorigin="anonymous"></script>
+</body>
+
+</html>
